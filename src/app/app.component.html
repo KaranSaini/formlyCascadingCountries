@@ -1,0 +1,10 @@
+<h1>CASCADING COUNTRY THING</h1>
+<form [formGroup]="form">
+    <formly-form [form]="form" [fields]="fields" [model]="model" [options] = "options"></formly-form>
+    <button type="submit" class="submit" (ngSubmit) = 'submit()'>Submit</button>    
+</form>
+
+
+
+
+<router-outlet></router-outlet>
